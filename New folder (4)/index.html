@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-auth.js"></script>
+</head>
+<body>
+    <h1><a href="./dashboard.html">Dashboard</a></h1>
+    <h2>Name: Muhammad Ghalib Jamal Khan Roll: WMA-178678</h2>
+    
+    <div class="signInContainer">
+        <h1>Login</h1>
+        <div><label for="email">User-Email</label>
+            <input type="email" id="emailaddress" placeholder="Enter Your Email" required>
+        </div>
+        <div><label for="password">Password</label>
+            <input type="password" id="pass" placeholder="Enter Your Password" required>
+        </div>
+        <button onclick="login()">Login In</button>
+        
+        
+        <p>Don't have an account? <a href="signup.html">Sign Up</a></p>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
